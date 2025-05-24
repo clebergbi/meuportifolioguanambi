@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Guanambi-Bahia</title>
+</head>
+<body>
+    <div class="particulas"></div>
+    <nav class="navegacao">
+        <ul class="menu">
+            <li><a href="#inicio" class="menu-link">Início</a></li>
+            <li><a href="#sobre" class="menu-link">Sobre</a></li>
+            <li><a href="#projetos" class="menu-link">Projetos</a></li>
+            <li><a href="#contatos" class="menu-link">Contato</a></li>
+        </ul>
+    </nav>
+    <main id="inicio" class="cabecalho">
+        <img src="./img/images (1).jpg" alt="Guanambi-Bahia" class="foto-perfil">
+        <h1>Guanambi-Bahia</h1>
+        <p class="cabecalho-subtitulo">Cidade do sertão baiano</p>
+    </main>
+    <section id="sobre" class="sobre">
+        <h2 class="sobre-titulo">Sobre Guanambi-Bahia</h2>
+        <div class="sobre-caixa">
+            <p class="sobre-paragrafo">
+                Guanambi é um município brasileiro do estado da Bahia, distante 796 km a sudoeste de Salvador, interligado à capital pela BR-030, BR-242 e BR-324, a 45 km de Caetité e a 43 km de Palmas de Monte Alto pela BR-030, a 33 km de Pindaí pela BR-122 e a 29 km de Candiba pela BA-262.
+            </p>
+        </div>
+    </section>
+    <section id="projetos" class="projetos">
+        <h2 class="projetos-titulos">Meus Projetos</h2>
+        <div class="projetos-caixa">
+            <div class="projetos-card">
+                <img src="./guanambi.jpg" alt="Projeto 1" class="projetos-imagem">
+                <div class="caixa-textos-projeto">
+                    <h3 class="info-projeto">Guanambi-Bahia</h3>
+                    <p class="paragrafo-projetos">
+                        Guanambi, no interior da Bahia, é um município conhecido por sua história, agricultura e comércio. A cidade é um pólo regional, abrigando o maior complexo eólico da América Latina e com uma economia impulsionada pela produção de grãos e comércio local. O nome Guanambi tem origem tupi, significando "beija-flor".
+                    </p>
+                </div>
+            </div>
+            <div class="projetos-card">
+                <img src="./por do sol.jpg" alt="Pôr do Sol" class="projetos-imagem">
+                <div class="caixa-textos-projeto">
+                    <h3 class="info-projeto">Pôr do Sol de Guanambi</h3>
+                    <p class="paragrafo-projetos">
+                        O pôr do sol, com suas cores vibrantes e atmosfera única, é um convite à reflexão sobre a beleza do mundo e a fugacidade do tempo.
+                    </p>
+                </div>
+            </div>
+            <div class="projetos-card">
+                <img src="./parque eolico.jpg" alt="Parque Eólico" class="projetos-imagem">
+                <div class="caixa-textos-projeto">
+                    <h3 class="info-projeto">Parque Eólico de Guanambi</h3>
+                    <p class="paragrafo-projetos">
+                        O parque eólico de Guanambi faz parte do Complexo Eólico Alto Sertão, um dos maiores do Brasil, com capacidade de geração de 386,1 megawatts.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+   <section id="contatos" class="contatos">
+    <h2 class="contatos-titulo">Contatos</h2>
+
+    <form class="formulario-contatos" id="formularios" onsubmit="enviarWhats(event)">
+        <input type="text" placeholder="Nome" class="grupo-form" id="nome" required>
+        <textarea class="grupo-form" placeholder="Digite sua mensagem" rows="6" id="mensagem" required></textarea>
+        <button type="submit" class="botao-form">Enviar WhatsApp (com mensagem personalizada)</button>
+    </form>
+
+    <div style="margin-top: 20px; text-align: center;">
+        <a 
+            href="https://wa.me/5577999192015?text=Olá!%20Quero%20saber%20mais%20informações." 
+            target="_blank" 
+            class="botao-form"
+        >
+            Fale direto no WhatsApp
+        </a>
+    </div>
+</section>
